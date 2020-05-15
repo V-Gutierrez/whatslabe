@@ -6,6 +6,9 @@
 /eslintrc.js
 /.eslintrc
 .pnp.js
+.eslintrc.js
+src/App.js
+src/styles/GlobalStyles.js
 
 # testing
 /coverage
