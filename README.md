@@ -5,3 +5,5 @@ Projeto feito com ReactJS. Um clone do Whatsapp com as funções básicas utiliz
 Autores: Victor Gutierrez (https://github.com/V-Gutierrez), Jonatan Machado (https://github.com/joninter).
 
 http://whatslabe.surge.sh/
+
+![WhatsLabe](https://github.com/future4code/mello-whatslab-grupo15/blob/master/gifreadme/Whatslabe.gif)
