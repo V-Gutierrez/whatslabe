@@ -31,7 +31,6 @@ function Historico(props) {
                     </li>
                 ))}
             </ul>
-            <Conversas />
         </>
     );
 }
