@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 export const PageBody = styled.main`
     display: flex;
     justify-content: center;
     align-content: center;
-    background-image: url("https://media.discordapp.net/attachments/704853583295676516/710676954172489879/Whatsapp-Wallpaper-112.jpg?width=247&height=439");
+    background-image: url('https://media.discordapp.net/attachments/704853583295676516/710676954172489879/Whatsapp-Wallpaper-112.jpg?width=247&height=439');
     background-attachment: fixed;
     background-size: contain;
     width: 100%;

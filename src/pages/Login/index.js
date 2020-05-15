@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
-import { PageBody, Input, FormWrapper, Send } from "./styles";
+import React, { useState } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
+import { PageBody, Input, FormWrapper, Send } from './styles';
 
 export default function Login() {
-    const [user, setUser] = useState({ user: "" });
+    const [user, setUser] = useState({ user: '' });
 
     const handleUser = (e) => {
         setUser({ user: e.target.value });
@@ -27,8 +27,9 @@ export default function Login() {
                     autocomplete="false"
                 />
                 <Input type="password" placeholder="Senha" />
-                <Send onClick={handleSubmit}>
-                    <a href="#">Login</a>
+
+                <Send onClick={() => handleSubmit}>
+                    <a href="/historico">Login</a>
                 </Send>
             </FormWrapper>
         </PageBody>
