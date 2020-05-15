@@ -1,11 +1,13 @@
-import React from "react";
-import { GlobalStyle } from "./styledcomponents/GlobalStyles";
+import React from 'react';
+import { GlobalStyle } from './styles/GlobalStyles';
+
+import Routes from './routes';
 
 function App() {
     return (
         <>
             <GlobalStyle />
-            <h1>Hello World!</h1>
+            <Routes />
         </>
     );
 }
