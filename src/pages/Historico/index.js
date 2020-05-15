@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { MdChat } from 'react-icons/md';
-import { IoMdMore } from 'react-icons/io';
+import { IoMdMore, IoMdSync } from 'react-icons/io';
 
 //assets
 import {
@@ -16,6 +16,7 @@ import {
     IconBig,
     Status,
     Icons,
+    Icon,
 } from './style';
 
 import Caio from '../../assets/caio.png';
@@ -51,8 +52,15 @@ function Historico(props) {
                 <Status>
                     <Avatar src={Eu} />
                     <Icons>
-                        <MdChat size={24} color="#666" />
-                        <IoMdMore size={24} color="#666" />
+                        <Icon>
+                            <IoMdSync size={24} color="#666" />
+                        </Icon>
+                        <Icon>
+                            <MdChat size={24} color="#666" />
+                        </Icon>
+                        <Icon>
+                            <IoMdMore size={24} color="#666" />
+                        </Icon>
                     </Icons>
                 </Status>
                 {conversations.map((conversation) => (

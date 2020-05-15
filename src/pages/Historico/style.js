@@ -79,7 +79,14 @@ export const Icons = styled.span`
     display: flex;
     flex-direction: row;
     align-self: center;
-    margin: 10px;
-    margin-left: 300px;
+    margin: 20px;
+    margin-left: 200px;
     justify-content: space-between;
+`;
+export const Icon = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    margin-left: 20px;
 `;
