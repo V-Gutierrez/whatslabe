@@ -9,7 +9,10 @@ export const ListConversation = styled.div`
 `;
 
 export const List = styled.div`
-    flex: 30%;
+    flex: 20%;
+    width: 100vw;
+    height: 100vh;
+    border-right: 1px solid rgba(110, 110, 100, 0.2);
 `;
 
 export const Item = styled.div`
@@ -18,20 +21,26 @@ export const Item = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     height: 72px;
-    width: 33vw;
+    width: 100%;
     pointer-events: all;
     position: relative;
 
     a {
         color: #000;
         text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        width: 96%;
+        border-bottom: 1px solid rgba(110, 110, 100, 0.2);
+    }
+    a:hover {
+        background-color: #e6e6e6;
     }
 `;
 
 export const Title = styled.h1`
     padding: 0px 15px 0 13px;
     display: flex;
-    align-items: center;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -56,7 +65,7 @@ export const Conversation = styled.div`
 `;
 
 export const Text = styled.p`
-    border-bottom: 1px solid rgba(110, 110, 100, 0.2);
+    padding-bottom: 20px;
 `;
 
 export const IconBig = styled.img`
@@ -71,7 +80,7 @@ export const IconBig = styled.img`
 export const Status = styled.div`
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     height: 72px;
     background-color: #e6e6e6;
 
@@ -97,4 +106,12 @@ export const Icon = styled.div`
     align-self: center;
     justify-content: space-between;
     margin-left: 20px;
+`;
+
+export const EnvelopeTexto = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 10px;
 `;
