@@ -32,18 +32,21 @@ function Historico(props) {
             nome: 'Caio',
             msg: 'Bora para aula, que hoje tem evidência!',
             avatar: Caio,
+            url: '/caio',
         },
         {
             id: 2,
             nome: 'Paula',
             msg: 'E esse HTML que não está semântico?',
             avatar: Paula,
+            url: '/paula',
         },
         {
             id: 3,
             nome: 'Soter',
             msg: 'Legal que tal agora fazer com bananinha?',
             avatar: Soter,
+            url: '/soter',
         },
     ]);
     return (
@@ -65,11 +68,13 @@ function Historico(props) {
                 </Status>
                 {conversations.map((conversation) => (
                     <Item key={conversation.id}>
-                        <EnvelopeItem>
-                            <Avatar src={conversation.avatar}></Avatar>
-                        </EnvelopeItem>
-                        <Title>{conversation.nome}</Title>
-                        <Text>{conversation.msg}</Text>
+                        <a href={conversation.url}>
+                            <EnvelopeItem>
+                                <Avatar src={conversation.avatar}></Avatar>
+                            </EnvelopeItem>
+                            <Title>{conversation.nome}</Title>
+                            <Text>{conversation.msg}</Text>
+                        </a>
                     </Item>
                 ))}
             </List>

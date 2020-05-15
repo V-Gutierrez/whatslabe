@@ -21,6 +21,11 @@ export const Item = styled.div`
     width: 33vw;
     pointer-events: all;
     position: relative;
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
 `;
 
 export const Title = styled.h1`
@@ -29,6 +34,8 @@ export const Title = styled.h1`
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
 `;
 
 export const EnvelopeItem = styled.div`
@@ -49,7 +56,7 @@ export const Conversation = styled.div`
 `;
 
 export const Text = styled.p`
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(110, 110, 100, 0.2);
 `;
 
 export const IconBig = styled.img`
@@ -83,6 +90,7 @@ export const Icons = styled.span`
     margin-left: 200px;
     justify-content: space-between;
 `;
+
 export const Icon = styled.div`
     display: flex;
     flex-direction: row;
