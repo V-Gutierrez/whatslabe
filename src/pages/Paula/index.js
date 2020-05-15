@@ -4,6 +4,5 @@ import React from 'react';
 
 function Paula() {
     return <h1>teste</h1>;
-
-
+}
 export default Paula;
