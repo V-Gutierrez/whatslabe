@@ -1,11 +1,12 @@
 import React from "react";
-import { GlobalStyle } from "./styledcomponents/GlobalStyles";
+import { GlobalStyle } from "./styles/GlobalStyles";
+import Login from "./components/Login/login";
 
 function App() {
     return (
         <>
             <GlobalStyle />
-            <h1>Hello World!</h1>
+            <Login />
         </>
     );
 }
