@@ -17,6 +17,7 @@ import {
     Status,
     Icons,
     Icon,
+    EnvelopeTexto,
 } from './style';
 
 import Caio from '../../assets/caio.png';
@@ -72,8 +73,10 @@ function Historico(props) {
                             <EnvelopeItem>
                                 <Avatar src={conversation.avatar}></Avatar>
                             </EnvelopeItem>
-                            <Title>{conversation.nome}</Title>
-                            <Text>{conversation.msg}</Text>
+                            <EnvelopeTexto>
+                                <Title>{conversation.nome}</Title>
+                                <Text>{conversation.msg}</Text>
+                            </EnvelopeTexto>
                         </a>
                     </Item>
                 ))}
