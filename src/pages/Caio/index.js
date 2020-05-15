@@ -1,9 +1,17 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import Historico from '../Historico/index';
+import Conversa from '../../components/Conversa/index';
+import { Container } from './style';
 
 function Caio() {
-    return <div />;
+    return (
+        <>
+            <Historico />
+            <Container>
+                <Conversa />
+            </Container>
+        </>
+    );
 }
 
 export default Caio;
