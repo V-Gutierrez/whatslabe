@@ -69,12 +69,13 @@ export const Text = styled.p`
 `;
 
 export const IconBig = styled.img`
+    display: flex;
     margin-top: 100px;
-    margin-left: 250px;
+    margin-left: 290px;
     border-radius: 50%;
     align-items: center;
+    align-self: center;
     flex: none;
-    display: flex;
 `;
 
 export const Status = styled.div`
@@ -114,4 +115,23 @@ export const EnvelopeTexto = styled.div`
     align-self: center;
     padding-top: 10px;
     padding-left: 10px;
+`;
+
+export const MensageWhats = styled.h1`
+    margin-top: 10px;
+    font-size: 32px;
+    color: #525252;
+    text-align: center;
+    font-weight: inherit;
+`;
+
+export const TextWhats = styled.p`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 190px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 20px;
 `;
