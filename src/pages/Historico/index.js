@@ -26,6 +26,7 @@ import Soter from '../../assets/soter.jpg';
 import Whats from '../../assets/iconegrande.jpg';
 import Eu from '../../assets/eulirico.jpg';
 
+
 function Historico(props) {
     const [conversations, setConversations] = useState([
         {
@@ -82,7 +83,7 @@ function Historico(props) {
                 ))}
             </List>
             <Conversation>
-                <IconBig src={Whats} />
+                {<IconBig src={Whats} />}
             </Conversation>
         </ListConversation>
     );
