@@ -18,6 +18,8 @@ import {
     Icons,
     Icon,
     EnvelopeTexto,
+    MensageWhats,
+    TextWhats,
 } from './style';
 
 import Caio from '../../assets/caio.png';
@@ -83,6 +85,11 @@ function Historico(props) {
             </List>
             <Conversation>
                 <IconBig src={Whats} />
+                <MensageWhats>Keep your phone connected</MensageWhats>
+                <TextWhats>
+                    WhatsApp connects to your phone to sync messages. To reduce
+                    data usage connect yout phone to Wi Fi.
+                </TextWhats>
             </Conversation>
         </ListConversation>
     );
