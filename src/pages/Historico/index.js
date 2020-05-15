@@ -18,6 +18,8 @@ import {
     Icons,
     Icon,
     EnvelopeTexto,
+    MensageWhats,
+    TextWhats,
 } from './style';
 
 import Caio from '../../assets/caio.png';
@@ -25,7 +27,6 @@ import Paula from '../../assets/paula.jpg';
 import Soter from '../../assets/soter.jpg';
 import Whats from '../../assets/iconegrande.jpg';
 import Eu from '../../assets/eulirico.jpg';
-
 
 function Historico(props) {
     const [conversations, setConversations] = useState([
@@ -83,7 +84,12 @@ function Historico(props) {
                 ))}
             </List>
             <Conversation>
-                {<IconBig src={Whats} />}
+                <IconBig src={Whats} />
+                <MensageWhats>Keep your phone connected</MensageWhats>
+                <TextWhats>
+                    WhatsApp connects to your phone to sync messages. To reduce
+                    data usage connect yout phone to Wi Fi.
+                </TextWhats>
             </Conversation>
         </ListConversation>
     );
