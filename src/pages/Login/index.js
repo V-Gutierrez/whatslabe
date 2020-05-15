@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import { PageBody, Input, FormWrapper, Send } from './styles';
+import { PageBody, Input, FormWrapper, Send, Hide } from './styles';
+
 
 export default function Login() {
     const [user, setUser] = useState({ user: '' });
@@ -13,6 +14,7 @@ export default function Login() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(user);
+     
     };
 
     return (
@@ -27,10 +29,12 @@ export default function Login() {
                     autocomplete="false"
                 />
                 <Input type="password" placeholder="Senha" />
+        
 
-                <Send onClick={() => handleSubmit}>
-                    <a href="/historico">Login</a>
-                </Send>
+                <a href="/historico"><Send onClick={(e) => handleSubmit}>
+                    Login
+                </Send></a>
+            
             </FormWrapper>
         </PageBody>
     );

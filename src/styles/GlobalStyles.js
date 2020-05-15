@@ -14,7 +14,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-
 button {
  cursor: pointer;
 }

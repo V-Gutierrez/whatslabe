@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Conversas from '../../components/Conversa/index';
 
 function Historico(props) {
     const [conversations, setConversations] = useState([
@@ -22,13 +23,16 @@ function Historico(props) {
         },
     ]);
     return (
-        <ul>
-            {conversations.map((conversation) => (
-                <li key={conversation.id}>
-                    {conversation.nome} | {conversation.msg}
-                </li>
-            ))}
-        </ul>
+        <>
+            <ul>
+                {conversations.map((conversation) => (
+                    <li key={conversation.id}>
+                        {conversation.nome} | {conversation.msg}
+                    </li>
+                ))}
+            </ul>
+            <Conversas />
+        </>
     );
 }
 

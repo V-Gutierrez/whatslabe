@@ -28,7 +28,7 @@ export const Input = styled.input`
     }
 `;
 
-export const FormWrapper = styled.form`
+export const FormWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,3 +56,6 @@ export const Send = styled.button`
     margin-top: 80px;
     font-weight: bold;
 `;
+
+
+
