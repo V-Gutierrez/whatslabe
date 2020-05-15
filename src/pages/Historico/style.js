@@ -99,6 +99,12 @@ export const Icons = styled.span`
     margin: 20px;
     margin-left: 200px;
     justify-content: space-between;
+
+    p {
+        position: relative;
+        right: 90%;
+        font-weight: bold;
+    }
 `;
 
 export const Icon = styled.div`

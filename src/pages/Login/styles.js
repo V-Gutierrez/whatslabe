@@ -44,9 +44,13 @@ export const FormWrapper = styled.form`
         margin-top: 20px;
         color: white;
     }
+    p {
+        margin-top: 100px;
+        color: yellow;
+    }
 `;
 
-export const Send = styled.button`
+export const Send = styled.a`
     width: 200px;
     height: 60px;
     background-color: #02af9c;
@@ -55,4 +59,7 @@ export const Send = styled.button`
     outline: none;
     margin-top: 80px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;

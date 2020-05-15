@@ -28,9 +28,21 @@ export default function Login() {
                 />
                 <Input type="password" placeholder="Senha" />
 
-                <Send onClick={() => handleSubmit}>
-                    <a href="/historico">Login</a>
+                <Send onClick={() => handleSubmit} href="/historico">
+                    Login
                 </Send>
+                <strong>
+                    <p>
+                        Criado por{' '}
+                        <a href="https://github.com/joninter">
+                            Jonatan Machado
+                        </a>{' '}
+                        e{' '}
+                        <a href="https://github.com/V-Gutierrez">
+                            Victor Gutierrez
+                        </a>
+                    </p>
+                </strong>
             </FormWrapper>
         </PageBody>
     );

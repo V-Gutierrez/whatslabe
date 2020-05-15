@@ -58,6 +58,7 @@ function Historico(props) {
                 <Status>
                     <Avatar src={Eu} />
                     <Icons>
+                        <p>Labenauta</p>
                         <Icon>
                             <IoMdSync size={24} color="#666" />
                         </Icon>
