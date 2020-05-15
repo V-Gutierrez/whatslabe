@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
+  font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
 }
 
 body {
